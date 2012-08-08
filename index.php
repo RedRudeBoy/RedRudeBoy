@@ -28,7 +28,7 @@ $(document).ready(function() {
 		<link rel="stylesheet/less" type="text/css" href="WindowView.less">
 		<link rel="stylesheet/less" type="text/css" href="MenuView.less">
 		<link rel="stylesheet/less" type="text/css" href="App.less">
-		<script src="libs/dist/less-1.3.0.min.js" type="text/javascript"></script>
+		<script src="libs/less/dist/less-1.3.0.min.js" type="text/javascript"></script>
 	</head>
 	<body>
 	</body>
