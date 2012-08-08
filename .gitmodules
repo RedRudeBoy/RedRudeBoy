@@ -5,5 +5,5 @@
       path = libs/underscore
       url = https://github.com/documentcloud/underscore.git
 [submodule "less"]
-      path = libs/less
-      url = https://github.com/cloudhead/less.js.git
+	path = libs/less
+	url = https://github.com/cloudhead/less.js.git
