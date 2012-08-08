@@ -8,5 +8,8 @@ Views.WindowView = Backbone.View.extend({
 	render: function() {
 		$(this.el).html( '<h1>window</h1>' );
 		return this;
+	},
+	renderGitHub: function() {
+		return '<div class="github-widget" data-repo="'+App.github()+'"></div>';
 	}
 });

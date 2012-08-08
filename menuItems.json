@@ -1,0 +1,11 @@
+window.menuItems = [
+	{
+	'url' : 'http://www.jamaicaska.es',
+	'name' : 'Home',
+	'year' : 2000
+	},{
+	'url' : 'http://www.google.es',
+	'name' : 'Google',
+	'year' : 1998
+	}
+];
