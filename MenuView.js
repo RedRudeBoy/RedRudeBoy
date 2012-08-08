@@ -1,12 +1,12 @@
-App.Views.MenuView = Backbone.View.extend({
-	tagName: 'li',
-	className: '',
-	id: '',
+Views.MenuView = Backbone.View.extend({
+	author: function() { return 'Leninux'},
+	toString: function() { return 'MenuView' },
+	id: function() { return 'MenuView' },
+	tagName: 'ul',
+	className: 'menuViewClass',
 //	attributes: {
 //		'a' : 'e'
 //	},
-	author: function() { return 'Leninux'},
-	toString: function() { return 'MenuView' },
 	initialize: function() {
 		
 	},

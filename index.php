@@ -9,19 +9,26 @@
 		<script type="text/javascript" src="libs/backbone/backbone-min.js" charset="UTF-8"></script>
 		<? /* App init */ ?>
 		<script type="text/javascript">
-window.App = {};
-App.debug = true;
-App.Views = {};
-//App.Collections = {};
-//App.Models = {};
+//declare the vars where all the classes are gonna be
+window.Models = new Object();
+window.Collections = new Object();
+window.Views = new Object();
+
 $(document).ready(function() {
-	App = new RedRudeBoyApp();
+	window.App = new RedRudeBoyApp({
+		debug: true
+	});
 });
 		</script>
 		<? /* Backbone App */ ?>
 		<script type="text/javascript" src="WindowView.js" charset="UTF-8"></script>
 		<script type="text/javascript" src="MenuView.js" charset="UTF-8"></script>
 		<script type="text/javascript" src="App.js" charset="UTF-8"></script>
+		<? /* Less Styles (for compile in CSS use: libs/bin/lessc styles.less > styles.css) */ ?>
+		<link rel="stylesheet/less" type="text/css" href="WindowView.less">
+		<link rel="stylesheet/less" type="text/css" href="MenuView.less">
+		<link rel="stylesheet/less" type="text/css" href="App.less">
+		<script src="libs/dist/less-1.3.0.min.js" type="text/javascript"></script>
 	</head>
 	<body>
 	</body>
