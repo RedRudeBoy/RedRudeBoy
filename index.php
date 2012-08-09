@@ -15,15 +15,16 @@
 		<?php /* App init */ ?>
 		<script type="text/javascript">
 //declare the vars where all the classes are gonna be
-window.Models = new Object();
-window.Collections = new Object();
-window.Views = new Object();
+window.App = new Object();
+App.Models = new Object();
+App.Collections = new Object();
+App.Views = new Object();
 
 $(document).ready(function() {
-//	debugger;
-	window.App = new RedRudeBoyApp({
+	
+	_.extend(App,new RedRudeBoyApp({
 		debug: true
-	});
+	}));
 	App.initApp();
 });
 		</script>

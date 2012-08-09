@@ -26,8 +26,8 @@ RedRudeBoyApp = Backbone.View.extend({
 		this.render();	
 	},
 	_instantiateClasses: function() {
-		this.views.menuView = new Views.MenuView();
-		this.views.windowView = new Views.WindowView();
+		this.views.menuView = new App.Views.MenuView();
+		this.views.windowView = new App.Views.WindowView();
 	},
 	log: function ( message ) {
 		if ( typeof console == 'object' && this.debug) {

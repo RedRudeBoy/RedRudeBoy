@@ -1,4 +1,4 @@
-window.menuItems = [
+App.menuItems = [
 	{
 	'url' : 'http://www.jamaicaska.es',
 	'name' : 'Home',

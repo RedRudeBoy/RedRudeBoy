@@ -1,17 +1,16 @@
-Collections.Menu = Backbone.Collection.extend({
+App.Collections.Menu = Backbone.Collection.extend({
 	author: function() { return 'Leninux' },
 	toString: function() { return 'Menu' },
 	id: function() { return 'Menu' },
 //	model: Models.MenuItem,
 	initialize: function() {
-		if(_.has(window,'menuItems')) {
+		if(_.has(App,'menuItems')) {
 			var menuItem;
-			var self = this;
-			_.each(window.menuItems, function(menuItemJSON) {
+			_.each(App.menuItems, function(menuItemJSON) {
 //				this.create(menuItemJSON);
-				menuItem = new Models.MenuItem(menuItemJSON);
+				menuItem = new App.Models.MenuItem(menuItemJSON);
 				App.log(menuItem);
-				self.add(menuItem);
+				this.add(menuItem);
 				App.log('pushed');
 			}, this);
 			App.log(this+' finish initialize');

@@ -1,5 +1,4 @@
-Models.MenuItem = Backbone.Model.extend({
-	author: function() { return 'Leninux' },
+App.Models.MenuItem = Backbone.Model.extend({
 	toString: function() { return 'MenuItem' },
 //	id: function() { return 'MenuItem' },
 	defaults: {

@@ -1,4 +1,4 @@
-Views.MenuView = Backbone.View.extend({
+App.Views.MenuView = Backbone.View.extend({
 	author: function() { return 'Leninux'},
 	toString: function() { return 'MenuView' },
 	id: function() { return 'MenuView' },
@@ -8,7 +8,7 @@ Views.MenuView = Backbone.View.extend({
 //		'a' : 'e'
 //	},
 	initialize: function() {
-		this.menu = new Collections.Menu();
+		this.menu = new App.Collections.Menu();
 		App.log(this.menu+' created:');
 		App.log(this.menu);
 	},

@@ -1,4 +1,4 @@
-Views.WindowView = Backbone.View.extend({
+App.Views.WindowView = Backbone.View.extend({
 	author: function() { return 'Leninux'},
 	toString: function() { return 'WindowView' },
 	id: function() { return 'WindowView' },
