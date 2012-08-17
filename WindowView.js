@@ -7,10 +7,13 @@ App.Views.WindowView = Backbone.View.extend({
 	},
 	render: function() {
 		$(this.el).html( '<h1>window</h1>' );
-		$(this.el).append(this.renderGitHub());
+		this.renderGitHub();
 		return this;
 	},
 	renderGitHub: function() {
-		return '<div class="github-widget" data-repo="'+App.gitRepo()+'"></div>';
+		var el = $('<div id="GitHubRRBWidget" class="github-widget" data-repo="'+App.gitRepo()+'"></div>');
+		App.renderGitHubWidget(el);
+		$(this.el).append(el);
+		return this;
 	}
 });
