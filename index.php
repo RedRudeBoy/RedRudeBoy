@@ -11,7 +11,7 @@
 		<script type="text/javascript" src="libs/jquery/jquery-1.7.2.min.js" charset="UTF-8"></script>
 		<script type="text/javascript" src="libs/underscore/underscore-min.js" charset="UTF-8"></script>
 		<script type="text/javascript" src="libs/backbone/backbone-min.js" charset="UTF-8"></script>
-		<script type="text/javascript" src="https://raw.github.com/JoelSutherland/GitHub-jQuery-Repo-Widget/master/jquery.githubRepoWidget.min.js"></script>
+		<script type="text/javascript" src="libs/GitHubWidget/jquery.githubRepoWidget.min.js"></script>
 		<?php /* App init */ ?>
 		<script type="text/javascript">
 //declare the vars where all the classes are gonna be
