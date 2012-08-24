@@ -7,6 +7,9 @@
 [submodule "less"]
 	path = libs/less
 	url = https://github.com/cloudhead/less.js.git
-[submodule "libs/GitHubWidget"]
+[submodule "jPlayer"]
+        path = libs/jPlayer
+        url = https://github.com/happyworm/jPlayer.git
+[submodule "GitHubWidget"]
 	path = libs/GitHubWidget
 	url = https://github.com/RedRudeBoy/GitHub-jQuery-Repo-Widget.git
