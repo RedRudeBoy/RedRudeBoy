@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php /* @todo: Info tags created in App.init */ ?>
+<?php
+		/** @todo:
+		 * Info tags created in App.init
+		 * use require.js
+		 * when the managers are ready... use it! xD
+		 */ ?>
 		<title>RedRudeBoy</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta charset="utf-8">
@@ -29,16 +34,16 @@ $(document).ready(function() {
 		</script>
 		<script type="text/javascript" src="libs/GitHubWidget/jquery.githubRepoWidget.min.js"></script>
 		<?php /* Backbone App */ ?>
-		<script type="text/javascript" src="menuItems.json"></script>
-		<script type="text/javascript" src="MenuItem.js" charset="UTF-8"></script>
-		<script type="text/javascript" src="Menu.js" charset="UTF-8"></script>
-		<script type="text/javascript" src="MenuView.js" charset="UTF-8"></script>
-		<script type="text/javascript" src="WindowView.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="views/Menu/menuItems.json"></script>
+		<script type="text/javascript" src="views/Menu/MenuItem.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="views/Menu/Menu.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="views/Menu/MenuView.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="views/Window/WindowView.js" charset="UTF-8"></script>
 		<script type="text/javascript" src="App.js" charset="UTF-8"></script>
 		<?php /* Less Styles (for compile in CSS use: libs/bin/lessc styles.less > styles.css) */ ?>
-		<link rel="stylesheet/less" type="text/css" href="WindowView.less">
+		<link rel="stylesheet/less" type="text/css" href="views/Window/WindowView.less">
 		<link rel="stylesheet/less" type="text/css" href="libs/GitHubWidget/style-source.less">
-		<link rel="stylesheet/less" type="text/css" href="MenuView.less">
+		<link rel="stylesheet/less" type="text/css" href="views/Menu/MenuView.less">
 		<link rel="stylesheet/less" type="text/css" href="App.less">
 		<script src="libs/less/dist/less-1.3.0.min.js" type="text/javascript"></script>
 	</head>

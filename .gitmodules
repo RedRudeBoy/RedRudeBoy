@@ -7,9 +7,15 @@
 [submodule "less"]
 	path = libs/less
 	url = https://github.com/cloudhead/less.js.git
+[submodule "requirejs"]
+	path = libs/requirejs
+	url = https://github.com/jrburke/requirejs.git
 [submodule "jPlayer"]
         path = libs/jPlayer
         url = https://github.com/happyworm/jPlayer.git
 [submodule "GitHubWidget"]
 	path = libs/GitHubWidget
 	url = https://github.com/RedRudeBoy/GitHub-jQuery-Repo-Widget.git
+[submodule "tomahawk-resolvers"]
+	path = libs/tomahawk-resolvers
+	url = https://github.com/RedRudeBoy/tomahawk-resolvers.git
