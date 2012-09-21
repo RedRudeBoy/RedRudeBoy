@@ -1,0 +1,4 @@
+indexViews = [
+	this.views.menuView,
+	this.views.windowView
+];

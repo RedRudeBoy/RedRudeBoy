@@ -19,3 +19,15 @@
 [submodule "tomahawk-resolvers"]
 	path = libs/tomahawk-resolvers
 	url = https://github.com/RedRudeBoy/tomahawk-resolvers.git
+[submodule "lawnchair"]
+	path = libs/lawnchair
+	url = https://github.com/brianleroux/lawnchair.git
+[submodule "jQuery-Animate-Enhanced"]
+	path = libs/jQuery-Animate-Enhanced
+	url = https://github.com/benbarnett/jQuery-Animate-Enhanced.git
+[submodule "fancyBox"]
+	path = libs/fancyBox
+	url = https://github.com/fancyapps/fancyBox.git
+[submodule "iscroll"]
+	path = libs/iscroll
+	url = https://github.com/cubiq/iscroll.git

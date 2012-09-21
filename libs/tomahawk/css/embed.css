@@ -1,0 +1,88 @@
+// hackety hack
+html, body {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	background:#000;
+}
+
+#cover a img, #cover a {
+	min-width:100%;
+	display:block;
+	min-height:100%;
+}
+
+#cover {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0px;
+}
+
+.no-embed.no-tomahawk {
+	display:none !important;
+}
+
+#fb-root {
+	display:none;
+}
+
+#progress_bar {
+	z-index:999999;
+}
+
+.resolver {
+	position:absolute;
+	right:5px;
+	top:5px;
+	max-width:20%;
+}
+
+#download {
+	display:none !important;
+	visibility: hidden;
+	opacity:0;
+	right:0;
+}
+
+#cover {
+	background:#fff url(../img/loading.gif) no-repeat center center;
+	margin-bottom:10px;
+}
+
+#cover.playable:hover {
+	background:none;
+	opacity:0.9;
+}
+
+body {
+	//background:#fff url(../img/loading.gif) no-repeat center center;
+}
+
+#cover a img, #cover a {
+	height:auto !important;
+	width:auto !important;
+
+	min-width:100% !important;
+	min-height:100% !important;
+}
+
+#cover {
+	margin-bottom:0;
+}
+
+#result {
+	border-radius:0;
+}
+
+
+@media (max-width:900px) {
+	.resultsList {
+	}
+	.resultsList li {
+
+	}
+}
